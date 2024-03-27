@@ -1,3 +1,11 @@
 CONTINUE FROM HERE :
 
-Note how in the first two examples above the relationship between users and posts is used. Recall that the User model has a posts relationship attribute that was configured with the WriteOnlyMapped generic type. This is a special type of relationship that adds a select() method that returns a database query for the related items. The u.posts.select() expression takes care of generating the query that links the user to its blog posts.
+This is a good time to test how the login and logout functionality works. Since there is still no user registration, the only way to add a user to the database is to do it via the Python shell, so run flask shell and enter the following commands to register a user:
+
+
+
+
+
+WIPE DATABASE:
+flask db downgrade base
+flask db upgrade
