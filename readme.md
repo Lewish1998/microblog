@@ -1,0 +1,3 @@
+CONTINUE FROM HERE :
+
+Note how in the first two examples above the relationship between users and posts is used. Recall that the User model has a posts relationship attribute that was configured with the WriteOnlyMapped generic type. This is a special type of relationship that adds a select() method that returns a database query for the related items. The u.posts.select() expression takes care of generating the query that links the user to its blog posts.
