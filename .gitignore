@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+_pycache_/
+*.py[cod]
+*$py.class
+
+# venv
+venv/
+
+# SQLAlchemy
+*.sqlite
+
+# Flask
+instance/
+.pytest_cache/
+.coverage
+
+# Flask-WTF
+.flaskenv
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# Compiled Python files
+*.pyc
+
+# Dependency directories
+lib/
+lib64/
