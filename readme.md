@@ -1,13 +1,10 @@
 CONTINUE FROM HERE :
 
-     
-
-Don't worry if this is hard to understand. I will show you how to work with these queries in a moment, and then everything will become clearer.
-
+Pagination
 
 WIPE DATABASE:
-flask db downgrade base
-flask db upgrade
+* flask db downgrade base
+* flask db upgrade
 
 
 
