@@ -1,6 +1,6 @@
 CONTINUE FROM HERE :
 
-Pagination
+Go ahead and try the pagination support. First make sure you have more than three blog posts written. This is easier to see in the explore page, which shows posts from all users. You are now going to see just the three most recent posts. If you want to see the next three, type http://localhost:5000/explore?page=2 in your browser's address bar.
 
 WIPE DATABASE:
 * flask db downgrade base
