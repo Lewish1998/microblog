@@ -29,3 +29,6 @@ instance/
 # Dependency directories
 lib/
 lib64/
+
+
+.email_test
