@@ -1,5 +1,5 @@
 from flask_mail import Message
-from app import mail
+from app import mail, app
 from flask import render_template
 
 def send_email(subject, sender, recipients, text_body, html_body):
@@ -11,7 +11,8 @@ def send_email(subject, sender, recipients, text_body, html_body):
 def send_password_reset_email(user):
     token = user.get_reset_password_token()
     send_email('[Microblog] Reset Your Password',
-               sender=app.config['ADMINS'][0],
+            #    sender=app.config['ADMINS'][0],
+               sender="MS_mN3kVr@trial-0p7kx4xqq17g9yjr.mlsender.net",
                recipients=[user.email],
                text_body=render_template('email/reset_password.txt',
                                          user=user, token=token),

@@ -1,6 +1,6 @@
 CONTINUE FROM HERE :
 
-The get_reset_password_token() function returns a JWT token as a string, which is generated directly by the jwt.encode() function.
+Asynchronous Emails
 
 
 
