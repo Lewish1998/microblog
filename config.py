@@ -21,15 +21,6 @@ class Config:
     MAIL_USERNAME = os.getenv('EMAIL_USERNAME')
     MAIL_PASSWORD = os.getenv('EMAIL_PASSWORD')
     
-
-    
-    
-    
-    'gou7685&FD&67sdf8f^*f7f76f8F^*F5'
     POSTS_PER_PAGE = 10
     
-    
-# ADMINS = os.getenv('ADMINS')
-# MAIL_USERNAME = os.getenv('EMAIL_USERNAME')
-
-# print(ADMINS)
+    LANGUAGES = ['en', 'es']

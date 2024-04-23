@@ -1,6 +1,8 @@
 CONTINUE FROM HERE :
 
-Asynchronous Emails
+[Asynchronous Emails](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-xiii-i18n-and-l10n)
+
+There is an even harder case to handle. Some string literals are assigned outside a web request, usually when the application is starting up, so at the time these texts are evaluated there is no way to know what language to use. An example of this are the labels associated with form fields.
 
 
 
